@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-08T23:15:37.813Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="eem1gjyzxPX2g_pkcT2H" version="16.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-08T23:18:55.487Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="9WiGIA3JC2Bk2k2xQC9t" version="16.5.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="862" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -87,16 +87,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="I7i92YL9FxGqmQuVXcNe-72" value="RegistrarVenda" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="60" y="310" width="160" height="144" as="geometry" />
+          <mxGeometry x="60" y="310" width="160" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="I7i92YL9FxGqmQuVXcNe-73" value="Quantidade: Integer&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="I7i92YL9FxGqmQuVXcNe-72">
-          <mxGeometry y="26" width="160" height="84" as="geometry" />
+        <mxCell id="I7i92YL9FxGqmQuVXcNe-73" value="idProduto: Integer&#xa;quantidade: Integer&#xa;preco: Double&#xa;dataVenda: Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="I7i92YL9FxGqmQuVXcNe-72">
+          <mxGeometry y="26" width="160" height="74" as="geometry" />
         </mxCell>
         <mxCell id="I7i92YL9FxGqmQuVXcNe-74" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="I7i92YL9FxGqmQuVXcNe-72">
-          <mxGeometry y="110" width="160" height="8" as="geometry" />
+          <mxGeometry y="100" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="I7i92YL9FxGqmQuVXcNe-75" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="I7i92YL9FxGqmQuVXcNe-72">
-          <mxGeometry y="118" width="160" height="26" as="geometry" />
+        <mxCell id="I7i92YL9FxGqmQuVXcNe-75" value="excluirRegistro(): Void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="I7i92YL9FxGqmQuVXcNe-72">
+          <mxGeometry y="108" width="160" height="32" as="geometry" />
         </mxCell>
         <mxCell id="I7i92YL9FxGqmQuVXcNe-81" value="RegistrarCompra" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="560" y="90" width="140" height="100" as="geometry" />
